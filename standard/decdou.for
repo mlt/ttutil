@@ -7,8 +7,8 @@
       CHARACTER*(*) STRING
 
 **    local variables + functions used
-      INCLUDE 'RDNDEC.GIN'
-      INCLUDE 'RDDECINF.INC'
+      INCLUDE 'rdndec.gin'
+      INCLUDE 'rddecinf.inc'
       INTEGER TTYPE, IB, IE, NERR, NWAR
 
       SAVE
