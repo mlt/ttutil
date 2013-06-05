@@ -1,0 +1,43 @@
+LICENSE
+=======
+The use of TTUTIL is free under the following conditions: 
+- The library or its documentation is not sold in any form.
+- If you distribute in any way source code containing calls to 
+  TTUTIL, you may include the TTUTIL library in its original form, 
+  in a separate folder/subdirectory on your distribution media 
+  containing all the material described in README.txt.
+- If the library is part of a commercial product the TTUTIL
+  library is mentioned in the product description as a free 
+  utility library, packed with the product for convenience.
+- A proper reference is made to TTUTIL and its authors in the 
+  source code and documentation of a commercial or non-commercial
+  product created with help of TTUTIL.
+- If you distribute source code via internet, a link to TTUTIL is
+  provided: http://www.alterra.nl/models/ttutil 
+- If you have made changes in the library for your own purposes, 
+  you do not replace the original TTUTIL routines on your
+  distribution media.
+
+if you have made changes in the library or even added new routines,
+the best way to distribute them with the original TTUTIL sources is 
+to put your new and amended utility routines in a separate folder. The
+contents of this folder should then be copied onto a ready-to-compile 
+TTUTIL folder in order to get the library you link with your program.
+This extends the system we also use for machine dependent parts of 
+the library (see README.txt).
+
+These rules and guidelines are meant to simplify the updating of
+TTUTIL for all users and to keep Fortran sources portable.
+
+REFERENCE
+=========
+D.W.G. van Kraalingen & C. Rappoldt. 2000. Reference manual of the 
+FORTRAN utility library v. 4. Report 5. Plant Research International,
+Wageningen, The Netherlands.
+
+An updated pdf version of this report is included with the library.
+
+E-MAIL
+======
+Daniel.vankraalingen@wur.nl
+kees.rappoldt@ecocurves.nl
