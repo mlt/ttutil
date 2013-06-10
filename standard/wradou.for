@@ -19,17 +19,17 @@
       XNAME_L = LEN_TRIM (XNAME)
 
       IF (IFND.EQ.1) THEN
-         WRITE (UNIT,'(1X,2A,1P,G23.16)')
+         WRITE (UNIT,'(1X,2A,1P,G23.14)')
      &         XNAME(1:XNAME_L),' = 1*',X(1)
       ELSE
-         WRITE (UNIT,'(1X,2A,1P,G23.16,10(A,G23.16))')
+         WRITE (UNIT,'(1X,2A,1P,G23.14,10(A,G23.14))')
      &      XNAME(1:XNAME_L),' = ',X(1),
      &      (',',X(I1),I1=2,MIN (NCOL, IFND))
 
          IF (IFND.GT.NCOL) THEN
 *           remaining data have to be written
             DO I1=NCOL+1,IFND,NCOL
-               WRITE (UNIT,'(1X,2A,1P,G23.16,10(A,G23.16))')
+               WRITE (UNIT,'(1X,2A,1P,G23.14,10(A,G23.14))')
      &            SPACE(1:XNAME_L),'   ',
      &            X(I1),(',',X(I2),I2=I1+1,MIN (NCOL+I1-1, IFND))
             END DO

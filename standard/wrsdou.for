@@ -10,7 +10,7 @@
       SAVE
 
       IF (.NOT.INIT) CALL FATALERR ('WRSDOU','system not initialized')
-      WRITE (UNIT,'(1X,2A,1P,G23.16)') XNAME,' = ',X
+      WRITE (UNIT,'(1X,2A,1P,G23.14)') XNAME,' = ',X
 
       RETURN
       END
